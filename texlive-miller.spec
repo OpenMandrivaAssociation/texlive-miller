@@ -1,3 +1,9 @@
+# revision 18789
+# category Package
+# catalog-ctan /macros/latex/contrib/miller
+# catalog-date 2007-01-12 00:17:35 +0100
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-miller
 Version:	1.2
 Release:	1
@@ -48,6 +54,7 @@ above the corresponding number.
 #- source
 %doc %{_texmfdistdir}/source/latex/miller/miller.dtx
 %doc %{_texmfdistdir}/source/latex/miller/miller.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ above the corresponding number.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
