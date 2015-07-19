@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-miller
 Version:	1.2
-Release:	9
+Release:	10
 Summary:	Typeset miller indices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/miller
