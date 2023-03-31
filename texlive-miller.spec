@@ -1,6 +1,6 @@
 Name:		texlive-miller
 Version:	18789
-Release:	1
+Release:	2
 Summary:	Typeset miller indices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/miller
