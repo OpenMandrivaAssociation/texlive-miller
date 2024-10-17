@@ -3,7 +3,7 @@ Version:	18789
 Release:	2
 Summary:	Typeset miller indices
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/miller
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/miller
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/miller.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/miller.doc.r%{version}.tar.xz
